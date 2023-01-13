@@ -1,0 +1,27 @@
+.block img{
+height: 100px;
+width: 100px;
+border-radius: 5px;
+}
+.block{
+    width: 170px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.container{
+    display: grid;
+    margin-left: calc((100vw - 1000px) / 2);
+    max-width: 1000px;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+h1{
+    margin-left: calc((100vw - 1000px) / 2);
+    margin-bottom: 5rem;
+}
+p{
+    margin: 0;
+    width: 200px;
+    height: 70px;
+}
